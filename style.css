@@ -174,7 +174,28 @@ body {
   padding-bottom: 10px;
   bottom: 200px;
 }
+.hamburger11 {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 80%;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  box-shadow: 1px 1px 1px 1px goldenrod;
+  position: relative;
+  left: 800px;
+  padding-bottom: 10px;
+  bottom: 400px;
+}
 .hamburger div {
+  width: 3rem;
+  height: 0.35rem;
+  background-color: snow;
+  left: 300px;
+}
+.hamburger11 div {
   width: 3rem;
   height: 0.35rem;
   background-color: snow;
@@ -240,6 +261,13 @@ body {
   height: 0.35rem;
   background-color: snow;
   left: 300px;
+}
+.hamburger11 img {
+  width: 2.5vw;
+  display: flex;
+  height: 3vh;
+  align-items: center;
+  justify-content: center;
 }
 
 .hamburger:hover div:nth-child(1) {
@@ -413,4 +441,9 @@ body {
 }
 .hamburger10:hover div:nth-child(3) {
   display: none;
+}
+.hamburger11:hover div {
+  transform-style: preserve-3d;
+  transition: transform 7s;
+  transform: rotate3d(8, 8, 8, 70deg);
 }
