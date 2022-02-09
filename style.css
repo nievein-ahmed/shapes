@@ -21,7 +21,8 @@ body {
   position: relative;
   left: 300px;
   padding-bottom: 10px;
-  flex-direction: row;
+  left: 700px;
+  top: 25px;
 }
 .hamburger8 {
   width: 8rem;
@@ -36,7 +37,7 @@ body {
   position: relative;
   left: 600px;
   padding-bottom: 10px;
-  bottom: 500px;
+  bottom: 700px;
 }
 .hamburger7 {
   width: 8rem;
@@ -49,8 +50,9 @@ body {
   align-items: center;
   box-shadow: 1px 1px 1px 1px goldenrod;
   position: relative;
-  left: 300px;
+  left: 900px;
   padding-bottom: 10px;
+  bottom: 450px;
 }
 .hamburger6 {
   width: 8rem;
@@ -63,8 +65,9 @@ body {
   align-items: center;
   box-shadow: 1px 1px 1px 1px goldenrod;
   position: relative;
-  left: 300px;
+  left: 900px;
   padding-bottom: 10px;
+  bottom: 200px;
 }
 .hamburger5 {
   width: 8rem;
@@ -77,8 +80,9 @@ body {
   align-items: center;
   box-shadow: 1px 1px 1px 1px goldenrod;
   position: relative;
-  left: 300px;
+  left: 800px;
   padding-bottom: 10px;
+  bottom: 600px;
 }
 .hamburger2 {
   width: 8rem;
@@ -91,8 +95,9 @@ body {
   align-items: center;
   box-shadow: 1px 1px 1px 1px goldenrod;
   position: relative;
-  left: 300px;
+  left: 700px;
   padding-bottom: 10px;
+  left: 700px;
 }
 .hamburger1 {
   width: 8rem;
@@ -105,8 +110,9 @@ body {
   align-items: center;
   box-shadow: 1px 1px 1px 1px goldenrod;
   position: relative;
-  left: 300px;
+  left: 600px;
   padding-bottom: 10px;
+  bottom: 100px;
 }
 .hamburger3 {
   width: 8rem;
@@ -119,7 +125,7 @@ body {
   align-items: center;
   box-shadow: 1px 1px 1px 1px goldenrod;
   position: relative;
-  left: 300px;
+  left: 700px;
   padding-bottom: 10px;
 }
 .hamburger4 {
@@ -133,8 +139,9 @@ body {
   align-items: center;
   box-shadow: 1px 1px 1px 1px goldenrod;
   position: relative;
-  left: 300px;
+  left: 800px;
   padding-bottom: 10px;
+  bottom: 200px;
 }
 .hamburger div {
   width: 3rem;
@@ -271,16 +278,19 @@ body {
   transform-style: preserve-3d;
   transition: transform 2s;
   transform: rotate3d(9, 3, 1, 90deg);
+  height: 4vh;
 }
 .hamburger6:hover div:nth-child(2) {
   transform-style: preserve-3d;
   transition: transform 3s;
   transform: rotate3d(4, 9, 4, 70deg);
+  height: 4vh;
 }
 .hamburger6:hover div:nth-child(3) {
   transform-style: preserve-3d;
   transition: transform 4s;
   transform: rotate3d(8, 5, 7, 90deg);
+  height: 4vh;
 }
 .hamburger7:hover div:nth-child(1) {
   display: none;
@@ -293,4 +303,19 @@ body {
 }
 .hamburger7:hover div:nth-child(3) {
   display: none;
+}
+.hamburger8:hover div:nth-child(1) {
+  display: none;
+}
+.hamburger8:hover div:nth-child(2) {
+  transform-style: preserve-3d;
+  transition: transform 4s;
+  transform: rotate3d(6, 7, 8, 90deg);
+  height: 2vh;
+}
+.hamburger8:hover div:nth-child(3) {
+  transform-style: preserve-3d;
+  transition: transform 4s;
+  transform: rotate3d(7, 9, 3, 60deg);
+  height: 2vh;
 }
