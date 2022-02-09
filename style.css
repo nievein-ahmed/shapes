@@ -6,8 +6,67 @@
 body {
   width: 100%;
   height: 100vh;
+  background-color: gray;
 }
 .hamburger {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 80%;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  box-shadow: 1px 1px 1px 1px goldenrod;
+  position: relative;
+  left: 300px;
+  padding-bottom: 10px;
+  flex-direction: row;
+}
+.hamburger8 {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 80%;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  box-shadow: 1px 1px 1px 1px goldenrod;
+  position: relative;
+  left: 600px;
+  padding-bottom: 10px;
+  bottom: 500px;
+}
+.hamburger7 {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 80%;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  box-shadow: 1px 1px 1px 1px goldenrod;
+  position: relative;
+  left: 300px;
+  padding-bottom: 10px;
+}
+.hamburger6 {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 80%;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  box-shadow: 1px 1px 1px 1px goldenrod;
+  position: relative;
+  left: 300px;
+  padding-bottom: 10px;
+}
+.hamburger5 {
   width: 8rem;
   height: 8rem;
   border-radius: 80%;
@@ -49,7 +108,72 @@ body {
   left: 300px;
   padding-bottom: 10px;
 }
+.hamburger3 {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 80%;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  box-shadow: 1px 1px 1px 1px goldenrod;
+  position: relative;
+  left: 300px;
+  padding-bottom: 10px;
+}
+.hamburger4 {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 80%;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  box-shadow: 1px 1px 1px 1px goldenrod;
+  position: relative;
+  left: 300px;
+  padding-bottom: 10px;
+}
 .hamburger div {
+  width: 3rem;
+  height: 0.35rem;
+  background-color: snow;
+  left: 300px;
+}
+.hamburger6 div {
+  width: 3rem;
+  height: 0.35rem;
+  background-color: snow;
+  left: 300px;
+}
+.hamburger7 div {
+  width: 3rem;
+  height: 0.35rem;
+  background-color: snow;
+  left: 300px;
+}
+
+.hamburger5 div {
+  width: 3rem;
+  height: 0.35rem;
+  background-color: snow;
+  left: 300px;
+}
+.hamburger8 div {
+  width: 3rem;
+  height: 0.35rem;
+  background-color: snow;
+  left: 300px;
+}
+.hamburger4 div {
+  width: 3rem;
+  height: 0.35rem;
+  background-color: snow;
+  left: 300px;
+}
+.hamburger3 div {
   width: 3rem;
   height: 0.35rem;
   background-color: snow;
@@ -67,21 +191,106 @@ body {
   background-color: snow;
   left: 300px;
 }
+
 .hamburger:hover div:nth-child(1) {
   transform: rotate(-40deg) translate(0, 0.5rem);
+  transform-style: preserve-3d;
 }
 .hamburger:hover div:nth-child(2) {
   display: none;
 }
 .hamburger:hover div:nth-child(3) {
   transform: rotate(40deg) translate(0, -3rem);
+  transform-style: preserve-3d;
 }
 .hamburger1:hover div:nth-child(1) {
   transform: translateX(10px) rotate(20deg) translateY(5px);
+  transform-style: preserve-3d;
 }
 .hamburger1:hover div:nth-child(2) {
   transform: translateX(10px) rotate(19deg) translateY(5px);
+  transform-style: preserve-3d;
 }
 .hamburger1:hover div:nth-child(3) {
   transform: translateX(10px) rotate(15deg) translateY(5px);
+  transform-style: preserve-3d;
+}
+.hamburger2:hover div:nth-child(1) {
+  transform: rotate(70deg) translate(0, 0.5rem);
+  transform-style: preserve-3d;
+}
+.hamburger2:hover div:nth-child(2) {
+  display: none;
+}
+.hamburger2:hover div:nth-child(3) {
+  transform: rotate(40deg) translate(0, 0.5rem);
+  transform-style: preserve-3d;
+}
+.hamburger3:hover div:nth-child(1) {
+  rotate: x 90deg;
+  rotate: y 0.25turn;
+  rotate: z 1.57rad;
+  transform-style: preserve-3d;
+}
+.hamburger3:hover div:nth-child(2) {
+  transform: translate(20px, 50%);
+  transform-style: preserve-3d;
+}
+.hamburger3:hover div:nth-child(3) {
+  transform: translate(20px, 200px);
+  transform-style: preserve-3d;
+}
+.hamburger4:hover div:nth-child(1) {
+  transform: translate(0, 4rem);
+  transform-style: preserve-3d;
+}
+.hamburger4:hover div:nth-child(2) {
+  transform: translate(0, -1rem);
+  transform-style: preserve-3d;
+}
+.hamburger4:hover div:nth-child(3) {
+  transform: rotate(90deg);
+  transform-style: preserve-3d;
+}
+.hamburger5:hover div:nth-child(1) {
+  transform-style: preserve-3d;
+  transition: transform 1.5s;
+  transform: rotate3d(1, 1, 1, 30deg);
+}
+.hamburger5:hover div:nth-child(2) {
+  transform-style: preserve-3d;
+  transition: transform 1.5s;
+  transform: rotate3d(1, 1, 1, 30deg);
+}
+.hamburger5:hover div:nth-child(3) {
+  transform-style: preserve-3d;
+  transition: transform 1.5s;
+  transform: rotate3d(1, 1, 1, 30deg);
+}
+.hamburger6:hover div:nth-child(1) {
+  transform-style: preserve-3d;
+  transition: transform 2s;
+  transform: rotate3d(9, 3, 1, 90deg);
+}
+.hamburger6:hover div:nth-child(2) {
+  transform-style: preserve-3d;
+  transition: transform 3s;
+  transform: rotate3d(4, 9, 4, 70deg);
+}
+.hamburger6:hover div:nth-child(3) {
+  transform-style: preserve-3d;
+  transition: transform 4s;
+  transform: rotate3d(8, 5, 7, 90deg);
+}
+.hamburger7:hover div:nth-child(1) {
+  display: none;
+}
+.hamburger7:hover div:nth-child(2) {
+  transform-style: preserve-3d;
+  transition: transform 4s;
+  transform: rotate3d(6, 6, 6, 60deg);
+  height: 5vh;
+}
+.hamburger7:hover div:nth-child(3) {
+  display: none;
 }
