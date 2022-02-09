@@ -243,31 +243,37 @@ body {
 }
 
 .hamburger:hover div:nth-child(1) {
-  transform: rotate(-40deg) translate(0, 0.5rem);
+  transform: rotate(40deg) translate(0, 0.5rem);
   transform-style: preserve-3d;
+  background-color: midnightblue;
 }
 .hamburger:hover div:nth-child(2) {
   display: none;
 }
 .hamburger:hover div:nth-child(3) {
-  transform: rotate(40deg) translate(0, -3rem);
+  transform: rotate(40deg) translate(0, 3rem);
   transform-style: preserve-3d;
+  background-color: moccasin;
 }
 .hamburger1:hover div:nth-child(1) {
   transform: translateX(10px) rotate(20deg) translateY(5px);
   transform-style: preserve-3d;
+  background-color: orangered;
 }
 .hamburger1:hover div:nth-child(2) {
   transform: translateX(10px) rotate(19deg) translateY(5px);
   transform-style: preserve-3d;
+  background-color: orchid;
 }
 .hamburger1:hover div:nth-child(3) {
   transform: translateX(10px) rotate(15deg) translateY(5px);
   transform-style: preserve-3d;
+  background-color: rgb(251, 152, 152);
 }
 .hamburger2:hover div:nth-child(1) {
   transform: rotate(70deg) translate(0, 0.5rem);
   transform-style: preserve-3d;
+  background-color: peru;
 }
 .hamburger2:hover div:nth-child(2) {
   display: none;
@@ -275,32 +281,37 @@ body {
 .hamburger2:hover div:nth-child(3) {
   transform: rotate(40deg) translate(0, 0.5rem);
   transform-style: preserve-3d;
+  background-color: plum;
 }
 .hamburger3:hover div:nth-child(1) {
-  rotate: x 90deg;
-  rotate: y 0.25turn;
-  rotate: z 1.57rad;
+  transform: translate(20px, 50%);
   transform-style: preserve-3d;
+  background-color: yellowgreen;
 }
 .hamburger3:hover div:nth-child(2) {
   transform: translate(20px, 50%);
   transform-style: preserve-3d;
+  background-color: salmon;
 }
 .hamburger3:hover div:nth-child(3) {
-  transform: translate(20px, 200px);
+  transform: translate(20px, 20px);
   transform-style: preserve-3d;
+  background-color: seagreen;
 }
 .hamburger4:hover div:nth-child(1) {
   transform: translate(0, 4rem);
   transform-style: preserve-3d;
+  background-color: sienna;
 }
 .hamburger4:hover div:nth-child(2) {
-  transform: translate(0, -1rem);
+  transform: translate(0, 1rem);
   transform-style: preserve-3d;
+  background-color: slateblue;
 }
 .hamburger4:hover div:nth-child(3) {
   transform: rotate(90deg);
   transform-style: preserve-3d;
+  background-color: yellow;
 }
 .hamburger5:hover div:nth-child(1) {
   transform-style: preserve-3d;
